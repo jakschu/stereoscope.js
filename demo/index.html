@@ -34,8 +34,14 @@
         </footer>
         <script src="../src/stereoscope.js"></script>
         <script>
-            var stereo = Stereoscope.init();
-            // console.log(stereo);
+            Stereoscope.init({
+                attributes: {
+                    type: 'data-type',
+                    speed: 'data-speed'
+                },
+                backgroundId: 'background',
+                backgroundDOMElement: 'section'
+            });
         </script>
     </body>
 </html>
