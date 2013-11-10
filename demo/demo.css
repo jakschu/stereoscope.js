@@ -51,11 +51,14 @@ a {
 }
 
 .content {
-    height: 410px; 
+    height: 450px; 
     position: absolute;
     top: 550px; 
     width: 100%;
     background-color: #fff;
+}
+
+.content div {
     padding: 20px;
 }
 
