@@ -2,7 +2,7 @@
   "name": "stereoscope.js",
   "version": "0.1.0",
   "description": "A nice parallax effect",
-  "main": "dist/stereoscope.min.js",
+  "main": "src/stereoscope.js",
   "directories": {
     "test": "test"
   },

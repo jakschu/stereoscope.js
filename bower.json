@@ -6,7 +6,7 @@
     "Stéphane P. Péricat <contact@shortwavapp.com>"
   ],
   "description": "A nice parallax effect",
-  "main": "dist/stereoscope.min.js",
+  "main": "src/stereoscope.js",
   "keywords": [
     "parallax"
   ],
