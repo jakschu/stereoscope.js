@@ -42,6 +42,8 @@ A customizable parallax scrolling effect for es5.
         });
     });
 
+See the [demo files](https://github.com/stephanepericat/stereoscope.js/tree/master/demo) for an example on how to setup the html / css.
+
 ##Options##
 
  - `attributes`: {Object} the type & speed attributes
