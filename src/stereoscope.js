@@ -31,6 +31,9 @@
             backgroundId: 'background',
             backgroundDOMElement: 'section'
         },
+        /**
+         * @property    {Array}    Store for backgrounds
+         */
         backgrounds: [],
         /**
          * Initializes the parallax
@@ -38,22 +41,37 @@
          * @returns {Object}    this
          */
         init: function(options) {
-            if(options) this.options = options;
+            if(options) this.setOptions(options);
 
             this.getBackgrounds();
 
             return this;
         },
         /**
+         * Sets custom options passed to the init method
+         * @param   {Object}    opts
+         * @returns {Object}    this.options
+         */
+        setOptions: function(opts) {
+            if('object' === typeof opts) {
+                for(opt in opts) {
+                    if(opts.hasOwnProperty(opt)) this.options[opt] = opts[opt];
+                }
+            }
+            return this.options;
+        },
+        /**
          * Gets the backgrounds
          * @returns {Nodelist}    this.backgrounds
          */
         getBackgrounds: function() {
+            var i;
+            
             this.backgrounds = Array.prototype.slice.call(document.querySelectorAll(this.options.backgroundDOMElement+'['+this.options.attributes.type+'='+this.options.backgroundId+']'));
 
-            this.backgrounds.forEach(function(bkgd, idx) {
-                this.setupScrollListener(bkgd);
-            }.bind(this));
+            for(i = 0; i < this.backgrounds.length; i++) {
+                this.setupScrollListener(this.backgrounds[i]);
+            }
 
             return this.backgrounds;
         },
@@ -64,10 +82,11 @@
          */
         setupScrollListener: function(background) {
             var yPos, coords,
-                speed = background.getAttribute(this.options.attributes.speed);
+                speed = parseInt(background.getAttribute(this.options.attributes.speed));
 
             window.addEventListener('scroll', function() {
-                yPos = -(window.scrollY / speed);
+                var wPos =window.scrollY;
+                yPos = -(wPos / speed);
                 coords = '50% '+ yPos + 'px';
                 background.style.backgroundPosition = coords;
             });
