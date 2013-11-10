@@ -47,7 +47,7 @@ a {
     max-width: 1920px; 
     position: relative;
     -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.8);
-    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    box-shadow: 0 0 1px rgba(0,0,0,0.8);
 }
 
 .content {
