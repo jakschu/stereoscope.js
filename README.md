@@ -15,6 +15,8 @@ A customizable parallax scrolling effect for es5.
 
 ##Usage##
 
+See the [demo files](https://github.com/stephanepericat/stereoscope.js/tree/master/demo) for an example on how to setup the html / css.
+
 ###Basic###
 
     <script src="src/stereoscope.js"></script>
@@ -41,8 +43,6 @@ A customizable parallax scrolling effect for es5.
             backgroundDOMElement: 'section'
         });
     });
-
-See the [demo files](https://github.com/stephanepericat/stereoscope.js/tree/master/demo) for an example on how to setup the html / css.
 
 ##Options##
 
