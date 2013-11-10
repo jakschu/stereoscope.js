@@ -1,0 +1,26 @@
+{
+  "name": "stereoscope.js",
+  "version": "0.1.0",
+  "description": "A nice parallax effect",
+  "main": "dist/stereoscope.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "preinstall": "sudo npm install -g bower karma mocha jsdoc grunt-cli",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephanepericat/stereoscope.js.git"
+  },
+  "keywords": [
+    "parallax",
+    "clientside"
+  ],
+  "author": "Stéphane P. Péricat <contact@shortwavapp.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephanepericat/stereoscope.js/issues"
+  }
+}
