@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "description": "A nice parallax effect",
   "main": "src/stereoscope.js",
+  "private": true,
+  "analyze": false,
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "preinstall": "sudo npm install -g bower karma mocha jsdoc grunt-cli",
+    "preinstall": "sudo npm install -g bower karma mocha jsdoc grunt-cli phantomjs",
     "test": "karma start"
   },
   "repository": {
@@ -22,5 +24,13 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stephanepericat/stereoscope.js/issues"
+  },
+  "devDependencies": {
+    "karma-mocha": "~0.1.0",
+    "karma-spec-reporter": "0.0.6",
+    "mocha": "~1.14.0",
+    "karma": "~0.10.4",
+    "expect.js": "~0.2.0",
+    "karma-phantomjs-launcher": "~0.1.0"
   }
 }
