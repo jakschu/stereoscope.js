@@ -12,7 +12,8 @@ A customizable parallax scrolling effect for es5.
 
 ###Via Bower###
 
-    bower install stephanepericat/stereoscope.js
+    bower install stereoscope.js
+    <iframe src="//benschwarz.github.io/bower-badges/embed.html?pkgname=stereoscope.js" width="160" height="32" allowtransparency="true" frameborder="0" scrolling="0">
 
 ##Usage##
 
