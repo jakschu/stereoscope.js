@@ -1,4 +1,4 @@
-#stereoscope.js#
+#stereoscope.js 0.1.0#
 
 A customizable parallax scrolling effect for es5.
 
@@ -56,4 +56,5 @@ See the [demo files](https://github.com/stephanepericat/stereoscope.js/tree/mast
 
     npm install
     npm test
+
 
