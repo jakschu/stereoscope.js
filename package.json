@@ -9,7 +9,6 @@
     "test": "test"
   },
   "scripts": {
-    "preinstall": "sudo npm install -g bower karma mocha jsdoc grunt-cli phantomjs",
     "test": "karma start"
   },
   "repository": {
