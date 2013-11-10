@@ -1,7 +1,8 @@
+[![Build Status](https://travis-ci.org/stephanepericat/stereoscope.js.png?branch=master)](https://travis-ci.org/stephanepericat/stereoscope.js)
+
 #stereoscope.js 0.1.0#
 
 A customizable parallax scrolling effect for es5.
-
 
 ##Installation##
 
