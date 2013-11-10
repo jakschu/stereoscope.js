@@ -10,7 +10,7 @@ A customizable parallax scrolling effect for es5.
 
     git clone git@github.com:stephanepericat/stereoscope.js.git
 
-![Bower](//benschwarz.github.io/bower-badges/badge@2x.png)
+![Bower](https://raw.github.com/benschwarz/bower-badges/gh-pages/badge@2x.png)
 
     bower install stereoscope.js
 
