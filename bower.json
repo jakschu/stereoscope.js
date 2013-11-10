@@ -5,7 +5,7 @@
   "authors": [
     "Stéphane P. Péricat <contact@shortwavapp.com>"
   ],
-  "description": "A nice parallax effect",
+  "description": "A customizable parallax scrolling effect for es5.",
   "main": "src/stereoscope.js",
   "keywords": [
     "parallax"

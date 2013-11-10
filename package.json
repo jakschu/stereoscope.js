@@ -1,7 +1,7 @@
 {
   "name": "stereoscope.js",
   "version": "0.1.0",
-  "description": "A nice parallax effect",
+  "description": "A customizable parallax scrolling effect for es5.",
   "main": "src/stereoscope.js",
   "private": true,
   "analyze": false,
